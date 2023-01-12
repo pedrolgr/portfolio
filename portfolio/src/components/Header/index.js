@@ -18,9 +18,9 @@ const Header = () => {
                         pretendo me tornar um desenvolvedor full-stack.</p>
 
                     
-                    <Button name='LinkedIn'/>
+                    <Button name='LinkedIn' icon = {<FaLinkedin className='icon' />}/>
 
-                    <Button name='Github'/>
+                    <Button name='Github' icon = {<FaGithub className='icon' />}/>
 
                     
                 </div>
