@@ -39,32 +39,6 @@
     padding-top: 25px;
 }
 
-.header-text button{
-    width: 130px;
-    height: 40px;
-    border: 1px solid #4b7bec;
-    background-color: #4b7bec;
-    border-radius: 5px;
-
-    cursor: pointer;
-    
-    margin: 50px 45px 5px 0px;
-    box-shadow: 0px 2px 5px #8a8989;
-    transition: 0.5s;
-}
-
-.header-text button:hover{
-    border: 1px solid #2b56bb;
-    background-color: #2b56bb;
-    transition: 0.5s;
-}
-
-.header-text a button {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
 .icon {
     font-size: 15px;
     margin-right: 5px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./styles.css"
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import Avatar from '../../img';
+import Button from '../Button';
 
 const Header = () => {
     return (
@@ -18,18 +18,10 @@ const Header = () => {
                         pretendo me tornar um desenvolvedor full-stack.</p>
 
                     
-                    <a href='https://www.linkedin.com/in/pedrolgr/'>
-                        <button>
-                            <FaLinkedin className='icon'/> LinkedIn
-                        </button>
-                    </a>
+                    <Button name='LinkedIn'/>
 
-                    
-                    <a href='https://github.com/pedrolgr'>
-                        <button>
-                            <FaGithub className='icon'/> GitHub
-                        </button>
-                    </a>
+                    <Button name='Github'/>
+
                     
                 </div>
 
