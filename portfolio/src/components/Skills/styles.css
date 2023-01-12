@@ -1,0 +1,119 @@
+.content {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.content .container {
+    width: 40%;
+    margin: auto;
+
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+
+.content .container h1{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.content .container h3{
+    font-size: 15px;
+    color: #363636;
+}
+
+.text {
+    text-align: center;
+}
+
+.skill {
+    width: 70%;
+    color: #fff;
+    padding: 20px;
+    margin: auto;
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.skill li h3{
+    margin-bottom: 5px;
+}
+
+.bar {
+    background: rgb(235, 234, 234);
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px #7e7d7d
+
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background-color: #4b7bec;
+}
+
+.html {
+    width: 75%;
+    animation: html 3s;
+}
+
+.css {
+    width: 68%;
+    animation: css 3s;
+}
+
+.javascript {
+    width: 42%;
+    animation: javascript 3s;
+}
+
+.react {
+    width: 35%;
+    animation: react 3s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 68%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 42%;
+    }
+}
+
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}

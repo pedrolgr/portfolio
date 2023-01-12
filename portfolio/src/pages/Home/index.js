@@ -1,6 +1,6 @@
 import Header from '../../components/Header'
 import Navbar from '../../components/Navbar'
-import Content from '../../components/Content'
+import Skills from '../../components/Skills'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header>
 
       </Header>
-      <Content />
+      <Skills />
     </div>
   );
 }
