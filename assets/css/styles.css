@@ -484,6 +484,28 @@ nav a:hover {
 
 }
 
+@media (max-width: 660px) {
+
+    .project-img img{
+        width: 25rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    html {
+        font-size: 56%;
+    }
+    .project-img img{
+        width: 25rem;
+    }
+
+    .project-text button{
+        width: 80%;
+        margin-top: 2rem;
+    }
+}
+
 @media (max-width: 425px) {
 
     html {
